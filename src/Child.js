@@ -6,6 +6,7 @@ export default function Child() {
     return (
         <div>
             Child number {value}
+            <button onClick={()=>{value[1](1+value[0])}}>Update number</button>
         </div>
     )
 }

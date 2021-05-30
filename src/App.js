@@ -5,14 +5,13 @@ import Parent from './Parent'
 import ValueContext from './ValueContext';
 
 function App() {
-  let [number,setNumber]=useState(90);
+  let value=useState(90);
   return (
-    <ValueContext.Provider value={number}>
+    <ValueContext.Provider value={value}>
     <div className="App">
       App.js
       <Parent></Parent>
-      <button onClick={()=>setNumber(++number)}>Update number
-      </button>
+      
     </div>
     </ValueContext.Provider>
   );
