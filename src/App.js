@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       App.js
       <Parent></Parent>
-      
+      <Child2/>
     </div>
     </ValueContext.Provider>
-    <Child2/>
+    
     </div>
   );
 }
