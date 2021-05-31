@@ -8,7 +8,7 @@ export default function Child2() {
         <div>
             Child2 {state}
             <button onClick={()=>{dispatch({type:'INCREMENT',val:5})}}>Increment</button>
-            <button onClick={()=>{dispatch({type: 'DECREMENT',val:5})}}>Increment</button>
+            <button onClick={()=>{dispatch({type: 'DECREMENT',val:5})}}>Decrement</button>
         </div>
     )
 }
